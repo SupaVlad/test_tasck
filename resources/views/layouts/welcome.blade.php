@@ -18,24 +18,32 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="header__logo">
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-5 col-lg-5 col-md-3">
                     <div class="header__search">
                         <div class="input-group">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button"></button>
                             </span>
-                            <input type="text" class="form-control" placeholder="Search for...">
+                            <input type="text" class="form-control" placeholder="Company Name">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="header_info">
+                <div class="col-xl-4 col-lg-4 col-md-5">
+                    <div class="header__info">
+                        <div class="header__msg-logo">
 
+                        </div>
+                        <div class="header__notification-logo">
+
+                        </div>
+                        <div class="header__profile">
+                            <p>Maximillian Beekeeper</p>
+                        </div>
                     </div>
                 </div>
             </div>

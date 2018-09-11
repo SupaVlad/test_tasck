@@ -1,3 +1,4 @@
+@import "mixin";
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
@@ -8,10 +9,15 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Fonts
+@import "typography";
 
 
 
 
+body{
+  background-color: #fff;
+}
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -21,5 +27,15 @@
   min-width: 970px;
   margin: 0 auto;
 }
+.wrapper{
+  width: 970px;
+  margin: 0 auto;
+}
+p{
+  font-family: ProximaNova-Regular;
+}
 //@import "fonts";
 @import "blocks/header";
+@import "blocks/side-column";
+@import "blocks/center-column";
+@import "blocks/right-column";
